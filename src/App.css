@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@500;700&display=swap'); 
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+nav{ 
+    /* width: 550px; */
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset;
+}
+
+.globe-png{
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 50px);
+  top: calc(50% - 24px/2 - 324px); 
+  background: #F55A5A;
+}
+.nav-span{
+  width: 109px;
+  height: 16px;
+  /* left: 244px; */
+  top: 20px;
+  margin-left: 7px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+}
+.main-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-right: 35px;
+  margin-bottom: 28px;
+}
+.card{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin-top: 18px;
+ margin-bottom: 18px;
+}
+
+.card-image{
+  height: 175px;
+  width: 132px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.card-details{
+  box-sizing: border-box;
+ 
+}
+
+.location-img{
+  width: 7px;
+height: 9.55px;
+left: calc(50% - 7px/2 - 87.5px);
+top: calc(50% - 9.55px/2 - 227.23px);
+
+background: #DADADA;
+}
+.country-name-span{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+margin: 10px 10px;
+
+color: #2B283A;
+
+}
+
+.url-map{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+
+}
+
+.area-name{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+
+}
+.date-visit-leave{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  
+  color: #2B283A;
+}
+
+.about-travel{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  
+  
+  color: #2B283A;
+}
